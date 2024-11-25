@@ -1,0 +1,166 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "next art";
+  src: url(../NEXT\ART_Light.otf);
+}
+
+.hidden {
+  display: none;
+}
+
+.info.wrapper,
+.video-container.wrapper {
+  margin-top: 100px;
+}
+
+body,
+a {
+  font-family: Verdana, sans-serif;
+}
+
+.wrapper {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+p {
+  color: #18121e;
+}
+
+.accent-button {
+  display: inline-block;
+  align-self: flex-start;
+  background-color: #1a3e3e;
+  padding: 16px 36px;
+  border-radius: 4px;
+}
+header {
+  color: rgb(255, 255, 255);
+  background-image: url(../Media/BACKGROUND.png);
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu .menu_item {
+  display: inline-block;
+  padding: 10px;
+}
+
+h1 {
+  font-family: next art;
+  margin-top: 500px;
+  font-size: 50px;
+}
+h2 {
+  font-size: 32px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.videp-container video {
+  width: 1180px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.start-chain {
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
+.pdd {
+  display: flex;
+}
+
+.trex {
+  height: 50px;
+  margin: 15px;
+}
+
+.tour-container {
+  margin-top: 100px;
+  display: flex;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+}
+
+.background{  
+  width: 100%;
+  background-color: #f3f5f4;
+}
+
+.direction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.direction .accent-button{
+  align-self: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.directions_item{
+  width: 380px;
+  height: 500px;
+}
+
+.directions_item article{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.directions_item:first-child article{
+background-image: url(../Media/fon1.png);
+}
+
+.directions_item:nth-child(2) article{
+  background-image: url(../Media/fon2.png);
+}
+
+.directions_item:last-child article{
+  background-image: url(../Media/fon3.png);
+}
+
+.directions__item_back{
+  background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  backdrop-filter: blur(2px);
+position: absolute;
+bottom: 0;
+}
